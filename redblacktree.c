@@ -444,7 +444,7 @@ void rb_remove(RedBlackTree * tree, int value)
     }
     else /* node has no nonleaf children */
     {
-        if (tree->root = curr)
+        if (tree->root == curr)
         {
             tree->root = NULL;
         }
